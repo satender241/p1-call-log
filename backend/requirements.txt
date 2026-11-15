@@ -1,0 +1,5 @@
+# The Python libraries this API needs. Render installs these with: pip install -r requirements.txt
+fastapi==0.163.0          # the web framework: turns Python functions into API doors
+uvicorn[standard]==0.54.0 # the server program that actually runs the app and listens for requests
+psycopg[binary]==3.3.9    # lets Python talk to Postgres
+python-dotenv==1.2.4      # reads the .env file on your laptop

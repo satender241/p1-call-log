@@ -1,0 +1,15 @@
+# Secrets: these files stay on your laptop and never go to GitHub.
+.env
+.env.*
+!.env.example
+
+# Things your computer can rebuild by itself (no need to upload them).
+.venv/
+__pycache__/
+node_modules/
+dist/
+.vercel/
+.DS_Store
+
+# Claude Code local preview settings
+.claude/
